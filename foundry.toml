@@ -1,0 +1,13 @@
+[default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+
+remappings = [
+    'ds-test/=lib/ds-test/src/',
+    # 'token/=src/token/',
+    # 'openzeppelin/=src/openzeppelin/',
+    # 'nomiclabs/=node_modules/nomiclabs/',
+]
+
+# See more config options https://github.com/gakonst/foundry/tree/master/config
